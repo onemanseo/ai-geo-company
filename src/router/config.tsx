@@ -3,6 +3,7 @@ import NotFound from "../pages/NotFound";
 import Home from "../pages/home/page";
 import HomeLight from "../pages/home-light/page";
 import OldHome from "../pages/old/page";
+import NewHome from "../pages/new/page";
 
 const routes: RouteObject[] = [
   {
@@ -16,6 +17,10 @@ const routes: RouteObject[] = [
   {
     path: "/old",
     element: <OldHome />,
+  },
+  {
+    path: "/new",
+    element: <NewHome />,
   },
   {
     path: "*",
