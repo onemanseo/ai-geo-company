@@ -5,6 +5,7 @@ import HomeLight from "../pages/home-light/page";
 import OldHome from "../pages/old/page";
 import NewHome from "../pages/new/page";
 import NewTwoHome from "../pages/new2/page";
+import NewThreeHome from "../pages/new3/page";
 
 const routes: RouteObject[] = [
   {
@@ -26,6 +27,10 @@ const routes: RouteObject[] = [
   {
     path: "/new2",
     element: <NewTwoHome />,
+  },
+  {
+    path: "/new3",
+    element: <NewThreeHome />,
   },
   {
     path: "*",
