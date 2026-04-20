@@ -31,9 +31,9 @@ export default function Home() {
         .new3-theme .shadow-\[0_0_30px_rgba\(239\,68\,68\,0\.2\)\], .new3-theme .shadow-\[0_0_40px_rgba\(0\,229\,204\,0\.15\)\] { box-shadow: none !important; }
         .new3-theme img { filter: saturate(0.92) contrast(0.96); }
         .new3-theme section { position: relative; }
-        .new3-theme section::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at 10% 20%, rgba(255,126,78,0.10), transparent 18%), radial-gradient(circle at 88% 16%, rgba(89,170,255,0.10), transparent 18%); }
+        .new3-theme section::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at 10% 20%, rgba(255,126,78,0.10), transparent 18%), radial-gradient(circle at 88% 16%, rgba(89,170,255,0.10), transparent 18%), radial-gradient(circle at 72% 74%, rgba(255,205,82,0.08), transparent 16%); }
       `}</style>
-      <div className="fixed inset-0 pointer-events-none opacity-70" style={{ background: "radial-gradient(circle at 12% 18%, rgba(255,126,78,0.18), transparent 18%), radial-gradient(circle at 82% 14%, rgba(89,170,255,0.16), transparent 20%), radial-gradient(circle at 74% 68%, rgba(255,205,82,0.14), transparent 18%)" }} />
+      <div className="fixed inset-0 pointer-events-none opacity-70" style={{ background: "radial-gradient(circle at 12% 18%, rgba(255,126,78,0.18), transparent 18%), radial-gradient(circle at 82% 14%, rgba(89,170,255,0.16), transparent 20%), radial-gradient(circle at 74% 68%, rgba(255,205,82,0.14), transparent 18%), radial-gradient(circle at 18% 74%, rgba(102,238,201,0.12), transparent 16%)" }} />
       <Navbar />
       <main>
         <HeroSection onStrategyClick={() => setStrategyOpen(true)} onWhitepaperClick={() => setWhitepaperOpen(true)} />
@@ -55,11 +55,17 @@ export default function Home() {
               First results in 2–3 months. Systemic compounding growth after 6+. The brands that start now will own AI visibility in their category.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button onClick={() => setStrategyOpen(true)} className="flex items-center justify-center gap-2 px-8 py-4 bg-[#171717] text-[#fff8ef] text-base font-bold whitespace-nowrap shadow-[8px_8px_0_rgba(89,170,255,0.18)]">
+              <button
+                onClick={() => setStrategyOpen(true)}
+                className="flex items-center justify-center gap-2 px-8 py-4 bg-[#171717] text-[#fff8ef] text-base font-bold whitespace-nowrap shadow-[8px_8px_0_rgba(89,170,255,0.18)]"
+              >
                 Get a strategy for your business
                 <i className="ri-arrow-right-line"></i>
               </button>
-              <button onClick={() => setWhitepaperOpen(true)} className="flex items-center justify-center gap-2 px-8 py-4 border border-[#171717]/12 bg-white/70 text-[#171717] text-base font-semibold whitespace-nowrap shadow-[8px_8px_0_rgba(255,126,78,0.14)]">
+              <button
+                onClick={() => setWhitepaperOpen(true)}
+                className="flex items-center justify-center gap-2 px-8 py-4 border border-[#171717]/12 bg-white/70 text-[#171717] text-base font-semibold whitespace-nowrap shadow-[8px_8px_0_rgba(255,126,78,0.14)]"
+              >
                 <i className="ri-download-line"></i>
                 Download Whitepaper
               </button>
