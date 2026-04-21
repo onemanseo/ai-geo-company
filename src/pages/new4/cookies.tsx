@@ -5,35 +5,49 @@ export default function NewFourCookiesPage() {
     <LegalPageLayout
       kicker="Cookie Policy"
       title="Cookie Policy"
-      intro="This Cookie Policy explains how Flowvory may use cookies and similar technologies to operate the website, understand demand, and improve the quality of the site experience."
+      intro="This Cookie Policy explains how Flowvory uses cookies and similar technologies on flowvory.com. Flowvory is a California-based company located at 2412 Santa Monica Boulevard, Santa Monica, California."
       accent="peach"
       sections={[
         {
-          title: "1. What cookies do here",
+          title: "1. What cookies and similar technologies are",
           body: [
-            "Cookies and similar browser technologies help websites remember basic technical states, measure interaction, and understand how visitors move through pages.",
-            "For Flowvory, that can include understanding which sections attract serious business interest, how visitors navigate through the site, and whether the communication flow is clear or confusing.",
+            "Cookies are small text files and similar technologies that websites and related systems may place on a device or browser to remember state, support functionality, measure interaction, and improve website operation.",
+            "Related technologies can include local storage, pixels, tags, session identifiers, analytics scripts, and similar tools used to understand how a site is performing and how visitors move through it.",
           ],
         },
         {
-          title: "2. Types of site usage data",
+          title: "2. How Flowvory may use them",
           body: [
-            "The website may rely on measurement or analytics tools that process information such as page views, referral sources, browser type, device type, and interaction paths through the site.",
-            "These technologies are used to operate and improve the website rather than to create the illusion of sophistication with meaningless tracking language.",
+            "Flowvory may use cookies and similar technologies to keep the site functioning properly, remember technical settings, understand visitor engagement, analyze traffic sources, evaluate conversion paths, protect the website, and improve the clarity and performance of the user experience.",
+            "These tools may also help Flowvory understand which pages, sections, and calls to action are attracting qualified commercial interest rather than passive or low-intent traffic.",
           ],
         },
         {
-          title: "3. Why this matters for a commercial site",
+          title: "3. Categories of cookie-related activity",
           body: [
-            "Flowvory is not a hobby site. It is a commercial website designed to communicate an offer clearly, attract qualified interest, and understand which messages create real traction.",
-            "That means analytical and measurement technologies can play a legitimate operational role, especially when they help distinguish serious commercial demand from low-quality traffic.",
+            "Depending on the live implementation, cookies or similar technologies may support essential site operation, performance measurement, analytics, referral attribution, session management, and related website optimization activities.",
+            "The precise tools in use may change over time as the site evolves. If the operational setup changes materially, this policy should be updated so the public-facing text reflects actual usage rather than generic assumptions.",
           ],
         },
         {
-          title: "4. Managing cookie preferences",
+          title: "4. Third-party tools",
           body: [
-            "Most browsers allow users to control or restrict cookies through browser settings. If those settings are changed, some parts of the browsing experience may behave differently.",
-            "If Flowvory later adds a dedicated consent layer or a broader tracking implementation, this page should be revised to reflect the real setup in specific and understandable terms.",
+            "Some cookie or analytics functionality may be provided through third-party services such as analytics, hosting, scheduling, communications, or optimization providers. Those services may independently process technical information according to their own terms and policies in addition to Flowvory's practices.",
+            "Flowvory may select such tools for legitimate operational reasons, including site performance, business measurement, communications, and infrastructure reliability.",
+          ],
+        },
+        {
+          title: "5. Your browser controls",
+          body: [
+            "Most browsers provide controls that allow users to block, restrict, or remove cookies and similar storage technologies. These settings vary by browser and device.",
+            "If cookies are limited or disabled, some parts of the website experience may not function as intended, and some analytical or preference-related features may be reduced or unavailable.",
+          ],
+        },
+        {
+          title: "6. Future changes and contact",
+          body: [
+            "If Flowvory later implements a more detailed consent mechanism, adds materially different advertising or tracking tools, or significantly changes the website's measurement stack, this Cookie Policy should be updated accordingly.",
+            "Questions about this Cookie Policy may be directed to Flowvory at 2412 Santa Monica Boulevard, Santa Monica, California, or through the website's contact channels.",
           ],
         },
       ]}
