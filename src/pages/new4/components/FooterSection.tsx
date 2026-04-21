@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function FooterSection() {
   return (
     <footer className="bg-[#171717] pt-16 pb-8">
@@ -56,14 +58,20 @@ export default function FooterSection() {
             <ul className="space-y-3">
               {[
                 { label: "AI Growth Whitepaper", href: "#" },
-                { label: "Case Studies", href: "#" },
-                { label: "Blog", href: "#" },
-                { label: "AI Visibility Audit", href: "#" },
+                { label: "About Us", href: "/new4/about" },
+                { label: "Contact", href: "/new4/contact" },
+                { label: "AI Visibility Audit", href: "#strategy" },
               ].map((item) => (
                 <li key={item.label}>
-                  <a href={item.href} rel="nofollow" className="text-white/45 text-sm hover:text-white transition-colors cursor-pointer">
-                    {item.label}
-                  </a>
+                  {item.href.startsWith("/") ? (
+                    <Link to={item.href} className="text-white/45 text-sm hover:text-white transition-colors cursor-pointer">
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <a href={item.href} rel="nofollow" className="text-white/45 text-sm hover:text-white transition-colors cursor-pointer">
+                      {item.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -75,9 +83,9 @@ export default function FooterSection() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-white/45 text-sm">
                 <i className="ri-mail-line text-[#59aaff] text-sm flex-shrink-0"></i>
-                <a href="mailto:hello@aigrowthsystem.com" className="hover:text-white transition-colors cursor-pointer">
+                <Link to="/new4/contact" className="hover:text-white transition-colors cursor-pointer">
                   hello@aigrowthsystem.com
-                </a>
+                </Link>
               </li>
               <li className="flex items-center gap-2 text-white/45 text-sm">
                 <i className="ri-linkedin-box-line text-[#59aaff] text-sm flex-shrink-0"></i>
@@ -99,13 +107,22 @@ export default function FooterSection() {
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">© 2026 AI Growth System. All rights reserved.</p>
           <p className="text-white/25 text-xs italic">AI Growth System for eCommerce and marketplaces</p>
-          <div className="flex items-center gap-4">
-            <a href="#" rel="nofollow" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
+          <div className="flex items-center gap-4 flex-wrap justify-center">
+            <Link to="/new4/privacy" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
               Privacy Policy
-            </a>
-            <a href="#" rel="nofollow" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
-              Terms
-            </a>
+            </Link>
+            <Link to="/new4/terms" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
+              Terms & Conditions
+            </Link>
+            <Link to="/new4/cookies" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
+              Cookies
+            </Link>
+            <Link to="/new4/about" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
+              About Us
+            </Link>
+            <Link to="/new4/contact" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
+              Contact
+            </Link>
           </div>
         </div>
       </div>
