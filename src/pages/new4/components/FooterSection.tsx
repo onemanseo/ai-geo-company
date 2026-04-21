@@ -10,15 +10,15 @@ export default function FooterSection() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
               <div className="w-10 h-10 rounded-[14px] bg-[#fff8ef] text-[#171717] flex items-center justify-center font-black text-sm shadow-[4px_4px_0_rgba(89,170,255,0.2)]">
-                AI
+                FV
               </div>
               <div className="leading-none">
-                <div className="text-[10px] uppercase tracking-[0.28em] text-white/40 font-semibold">AI GEO COMPANY</div>
-                <div className="text-sm font-black text-white tracking-[-0.02em]">AI Growth System</div>
+                <div className="text-[10px] uppercase tracking-[0.28em] text-white/40 font-semibold">FLOWVORY</div>
+                <div className="text-sm font-black text-white tracking-[-0.02em]">Generative Growth System</div>
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-5">
-              AI Growth System for eCommerce and marketplaces. We manage demand, traffic, and conversion through AI.
+              Flowvory helps eCommerce brands and marketplaces turn GEO, structured data, conversion systems, and retention logic into one connected growth model.
             </p>
             <div className="flex items-center gap-3">
               {[
@@ -83,8 +83,8 @@ export default function FooterSection() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-white/45 text-sm">
                 <i className="ri-mail-line text-[#59aaff] text-sm flex-shrink-0"></i>
-                <Link to="/new4/contact" className="hover:text-white transition-colors cursor-pointer">
-                  hello@aigrowthsystem.com
+                <Link to="/new4/contact" className="hover:text-white transition-colors cursor-pointer break-all">
+                  hello@flowvory.com
                 </Link>
               </li>
               <li className="flex items-center gap-2 text-white/45 text-sm">
@@ -105,8 +105,8 @@ export default function FooterSection() {
 
         {/* Divider */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/30 text-xs">© 2026 AI Growth System. All rights reserved.</p>
-          <p className="text-white/25 text-xs italic">AI Growth System for eCommerce and marketplaces</p>
+          <p className="text-white/30 text-xs">© 2026 Flowvory. All rights reserved.</p>
+          <p className="text-white/25 text-xs italic">Flowvory, generative growth systems for eCommerce and marketplaces</p>
           <div className="flex items-center gap-4 flex-wrap justify-center">
             <Link to="/new4/privacy" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
               Privacy Policy

@@ -5,28 +5,35 @@ export default function NewFourCookiesPage() {
     <LegalPageLayout
       kicker="Cookie Policy"
       title="Cookie Policy"
-      intro="This page explains how cookies and similar technologies may be used to operate, measure, and improve the AI GEO COMPANY website."
+      intro="This Cookie Policy explains how Flowvory may use cookies and similar technologies to operate the website, understand demand, and improve the quality of the site experience."
       accent="peach"
       sections={[
         {
-          title: "Why cookies are used",
+          title: "1. What cookies do here",
           body: [
-            "Cookies and similar browser technologies may be used to support normal website functionality, measure traffic patterns, and understand how visitors move through the site.",
-            "For a company presenting a commercial growth system, those signals help identify which messages, sections, and entry points attract real demand rather than empty traffic.",
+            "Cookies and similar browser technologies help websites remember basic technical states, measure interaction, and understand how visitors move through pages.",
+            "For Flowvory, that can include understanding which sections attract serious business interest, how visitors navigate through the site, and whether the communication flow is clear or confusing.",
           ],
         },
         {
-          title: "Measurement and attribution",
+          title: "2. Types of site usage data",
           body: [
-            "Some technologies may help evaluate traffic sources, campaign performance, and page-level interaction. That can include analytics, referral measurement, and other operational tools used by modern websites.",
-            "If the live implementation later expands into more advanced tracking or advertising systems, this policy should be updated to reflect the actual setup in specific terms.",
+            "The website may rely on measurement or analytics tools that process information such as page views, referral sources, browser type, device type, and interaction paths through the site.",
+            "These technologies are used to operate and improve the website rather than to create the illusion of sophistication with meaningless tracking language.",
           ],
         },
         {
-          title: "Managing preferences",
+          title: "3. Why this matters for a commercial site",
           body: [
-            "Most browsers provide their own controls for cookies and related storage technologies. Restricting them may affect how some site features behave.",
-            "If a formal consent layer is introduced later, the real consent flow should match what this page says. The goal is clarity, not placeholder legal decoration.",
+            "Flowvory is not a hobby site. It is a commercial website designed to communicate an offer clearly, attract qualified interest, and understand which messages create real traction.",
+            "That means analytical and measurement technologies can play a legitimate operational role, especially when they help distinguish serious commercial demand from low-quality traffic.",
+          ],
+        },
+        {
+          title: "4. Managing cookie preferences",
+          body: [
+            "Most browsers allow users to control or restrict cookies through browser settings. If those settings are changed, some parts of the browsing experience may behave differently.",
+            "If Flowvory later adds a dedicated consent layer or a broader tracking implementation, this page should be revised to reflect the real setup in specific and understandable terms.",
           ],
         },
       ]}

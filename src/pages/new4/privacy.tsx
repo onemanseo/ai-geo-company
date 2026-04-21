@@ -5,35 +5,49 @@ export default function NewFourPrivacyPage() {
     <LegalPageLayout
       kicker="Privacy Policy"
       title="Privacy Policy"
-      intro="This policy explains, in plain language, what AI GEO COMPANY may collect through this website, why that information is used, and how inquiry data is handled when someone reaches out through the New 4 experience."
+      intro="This Privacy Policy describes how Flowvory handles information collected through the website at flowvory.com, including inquiry details, commercial context submitted by prospective clients, and technical information used to operate and improve the site."
       accent="mint"
       sections={[
         {
-          title: "Inquiry data",
+          title: "1. Scope of this policy",
           body: [
-            "If you contact the company through email, a strategy request, or another direct inquiry path, the information you provide is used to understand the request and reply appropriately.",
-            "That may include your name, email address, company details, website, market context, and any growth or visibility information you voluntarily include in the message.",
+            "This policy applies to information submitted through Flowvory's website, direct inquiry forms, strategy-call requests, and related communication paths connected to the public site experience.",
+            "It is meant to explain the practical data flow of the website in plain language, not to bury the reader in vague language that says little and creates less trust.",
           ],
         },
         {
-          title: "Operational website data",
+          title: "2. Information you may provide directly",
           body: [
-            "Like most commercial websites, this site may process limited technical and analytical information such as browser type, device category, page visits, referral source, and interaction patterns.",
-            "That information is used to understand demand, evaluate which pages attract real commercial attention, and improve how the site communicates its offer.",
+            "If you contact Flowvory, the company may receive information such as your name, work email, company name, website, role, market focus, and any additional commercial or operational context you choose to include.",
+            "That context can include your current growth model, visibility challenges, conversion bottlenecks, marketplace complexity, international expansion plans, or the specific reason you are reaching out.",
           ],
         },
         {
-          title: "How information is used",
+          title: "3. Technical and analytical information",
           body: [
-            "The company uses submitted information to respond to inquiries, assess fit, prepare relevant conversations, and operate the website more effectively.",
-            "It is not used to create a false sense of relationship or to imply a formal engagement where none exists. An inquiry is just that: an inquiry, until a separate commercial agreement exists.",
+            "Like most professional websites, Flowvory may process technical information required to understand site performance and visitor interaction. This can include browser type, device category, referral path, page views, click behavior, and session-level interaction signals.",
+            "This information is used to understand what attracts serious demand, where the site experience is unclear, and how effectively the site communicates the company's positioning.",
           ],
         },
         {
-          title: "Requests and updates",
+          title: "4. Why information is used",
           body: [
-            "If you want the company to correct or remove information you previously submitted through a direct inquiry, you can make that request using the contact page.",
-            "If the site later introduces more formal lead capture, newsletter systems, or account-based functionality, this policy should be updated to reflect the real implementation instead of generic legal filler.",
+            "Inquiry data is used to review the request, understand whether there is a genuine fit, prepare a more relevant reply, and decide whether the conversation should move forward into a strategy or commercial discussion.",
+            "Operational and analytical data is used to keep the site functional, monitor performance, improve clarity, and make better decisions about positioning, navigation, and conversion flow.",
+          ],
+        },
+        {
+          title: "5. Commercial communication",
+          body: [
+            "Submitting an inquiry does not automatically place someone into an ongoing commercial relationship. Flowvory does not treat a first contact message as implied consent for unrelated outreach or a substitute for a real engagement process.",
+            "If a conversation moves forward, the data already provided may be used to continue that discussion in a more informed way, but the existence of an inquiry alone does not create a project or agreement.",
+          ],
+        },
+        {
+          title: "6. Data review and updates",
+          body: [
+            "If you need the company to correct or remove information previously shared through a direct inquiry, you can request that through the contact page or by writing to hello@flowvory.com.",
+            "If the site later introduces new data flows, account systems, lead magnets, newsletter infrastructure, or additional tracking layers, this page should be updated to describe the real implementation clearly and specifically.",
           ],
         },
       ]}

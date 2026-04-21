@@ -192,7 +192,7 @@ export default function DashboardSectionLight() {
                 <div className="w-3 h-3 flex items-center justify-center">
                   <i className="ri-lock-line text-gray-400 text-[10px]"></i>
                 </div>
-                <span className="text-gray-400 text-xs">dashboard.aigrowthsystem.com</span>
+                <span className="text-gray-400 text-xs">dashboard.flowvory.com</span>
                 <div className="ml-auto w-2 h-2 rounded-full bg-teal-500 animate-pulse"></div>
               </div>
             </div>

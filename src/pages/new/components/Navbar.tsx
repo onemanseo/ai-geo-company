@@ -28,7 +28,7 @@ export default function Navbar() {
         <a href="/new" className="flex items-center gap-3 cursor-pointer text-white">
           <div className="w-10 h-10 rounded-2xl border border-[#7c8cff]/50 bg-[#151a30] flex items-center justify-center text-sm font-bold text-[#aab4ff]">AG</div>
           <div className="flex flex-col leading-none">
-            <span className="text-[11px] uppercase tracking-[0.28em] text-[#7f89b5] font-semibold">AI GEO COMPANY</span>
+            <span className="text-[11px] uppercase tracking-[0.28em] text-[#7f89b5] font-semibold">FLOWVORY</span>
             <span className="text-lg font-semibold tracking-[0.02em]">Search Intelligence</span>
           </div>
         </a>

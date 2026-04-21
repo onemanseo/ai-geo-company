@@ -23,7 +23,7 @@ export default function Navbar() {
         <a href="/new2" className="flex items-center gap-3 cursor-pointer text-[#171717]">
           <div className="w-11 h-11 rounded-[18px] bg-[#171717] text-[#fff8ef] flex items-center justify-center font-black text-sm shadow-[6px_6px_0_rgba(89,170,255,0.22)]">AI</div>
           <div className="leading-none">
-            <div className="text-[11px] uppercase tracking-[0.28em] text-[#6b6b6b] font-semibold">AI GEO COMPANY</div>
+            <div className="text-[11px] uppercase tracking-[0.28em] text-[#6b6b6b] font-semibold">FLOWVORY</div>
             <div className="text-lg font-black tracking-[-0.04em]">Search, but weirder</div>
           </div>
         </a>

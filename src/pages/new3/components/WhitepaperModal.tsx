@@ -49,7 +49,7 @@ export default function WhitepaperModal({ isOpen, onClose }: WhitepaperModalProp
               <i className="ri-download-line text-[#00E5CC] text-2xl"></i>
             </div>
             <h3 className="text-white text-xl font-bold mb-2">Whitepaper on its way!</h3>
-            <p className="text-[#8A8A8A] text-base">Check your inbox — the AI Growth System whitepaper will arrive shortly.</p>
+            <p className="text-[#8A8A8A] text-base">Check your inbox — the Flowvory whitepaper will arrive shortly.</p>
             <button
               onClick={onClose}
               className="mt-6 px-6 py-3 rounded-full bg-[#00E5CC] text-[#0A0A0B] font-bold text-sm cursor-pointer whitespace-nowrap"
@@ -64,7 +64,7 @@ export default function WhitepaperModal({ isOpen, onClose }: WhitepaperModalProp
                 <i className="ri-file-text-line text-[#00E5CC] text-xl"></i>
               </div>
               <p className="text-[#00E5CC] text-xs font-semibold tracking-widest uppercase mb-2">Free Download</p>
-              <h3 className="text-white text-2xl font-bold mb-2">AI Growth System Whitepaper</h3>
+              <h3 className="text-white text-2xl font-bold mb-2">Flowvory Whitepaper</h3>
               <p className="text-[#8A8A8A] text-sm leading-relaxed">
                 48 pages covering the full AI growth framework, case studies, and implementation roadmap.
               </p>

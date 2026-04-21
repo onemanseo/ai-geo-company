@@ -8,11 +8,11 @@ export default function FooterSection() {
           <div className="lg:col-span-1">
             <img
               src="https://public.readdy.ai/ai/img_res/00432940-05c9-4ddf-906b-9f72ed0c7467.png"
-              alt="AI Growth System"
+              alt="Flowvory"
               className="h-9 w-auto object-contain mb-4"
             />
             <p className="text-[#8A8A8A] text-sm leading-relaxed mb-5">
-              AI Growth System for eCommerce and marketplaces. We manage demand, traffic, and conversion through AI.
+              Flowvory for eCommerce and marketplaces. We manage demand, traffic, and conversion through AI.
             </p>
             <div className="flex items-center gap-3">
               {[
@@ -73,8 +73,8 @@ export default function FooterSection() {
                 <div className="w-4 h-4 flex items-center justify-center">
                   <i className="ri-mail-line text-[#00E5CC] text-sm"></i>
                 </div>
-                <a href="mailto:hello@aigrowthsystem.com" className="hover:text-white transition-colors cursor-pointer">
-                  hello@aigrowthsystem.com
+                <a href="mailto:hello@flowvory.com" className="hover:text-white transition-colors cursor-pointer">
+                  hello@flowvory.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-[#8A8A8A] text-sm">
@@ -100,10 +100,10 @@ export default function FooterSection() {
         {/* Divider */}
         <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-[#8A8A8A] text-xs">
-            © 2026 AI Growth System. All rights reserved.
+            © 2026 Flowvory. All rights reserved.
           </p>
           <p className="text-[#8A8A8A] text-xs italic">
-            AI Growth System for eCommerce and marketplaces
+            Flowvory for eCommerce and marketplaces
           </p>
           <div className="flex items-center gap-4">
             <a href="#" rel="nofollow" className="text-[#8A8A8A] text-xs hover:text-white transition-colors cursor-pointer">

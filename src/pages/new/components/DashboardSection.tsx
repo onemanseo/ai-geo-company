@@ -281,7 +281,7 @@ export default function DashboardSection() {
                 <div className="w-3 h-3 flex items-center justify-center">
                   <i className="ri-lock-line text-[#8A8A8A] text-[10px]"></i>
                 </div>
-                <span className="text-[#8A8A8A] text-xs">dashboard.aigrowthsystem.com</span>
+                <span className="text-[#8A8A8A] text-xs">dashboard.flowvory.com</span>
                 <div className="ml-auto w-2 h-2 rounded-full bg-[#00E5CC] animate-pulse"></div>
               </div>
             </div>

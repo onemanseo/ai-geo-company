@@ -29,13 +29,13 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-3 cursor-pointer">
+        <a href="/new4" className="flex items-center gap-3 cursor-pointer">
           <div className="w-11 h-11 rounded-[18px] bg-[#171717] text-[#fff8ef] flex items-center justify-center font-black text-sm shadow-[6px_6px_0_rgba(89,170,255,0.22)]">
-            AI
+            FV
           </div>
           <div className="leading-none">
-            <div className="text-[10px] uppercase tracking-[0.28em] text-[#6b6b6b] font-semibold">AI GEO COMPANY</div>
-            <div className="text-lg font-black tracking-[-0.04em] text-[#171717]">AI Growth System</div>
+            <div className="text-[10px] uppercase tracking-[0.28em] text-[#6b6b6b] font-semibold">FLOWVORY</div>
+            <div className="text-lg font-black tracking-[-0.04em] text-[#171717]">Generative Growth System</div>
           </div>
         </a>
 

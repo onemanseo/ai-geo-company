@@ -5,28 +5,35 @@ export default function NewFourContactPage() {
     <LegalPageLayout
       kicker="Contact"
       title="Contact"
-      intro="If you want to discuss GEO, AI visibility, or a strategy-led growth system for your business, this page is the right starting point."
+      intro="If you want to discuss GEO, AI visibility, or a strategy-led growth system for your business, this page is the right starting point for contacting Flowvory."
       accent="blue"
       sections={[
         {
-          title: "Email",
+          title: "1. Direct contact",
           body: [
-            "For direct inquiries, use hello@aigrowthsystem.com and include enough context to understand the company, the market, and the current growth problem.",
-            "A short, specific message is more useful than a broad request with no commercial detail. Clear context makes it easier to understand whether the fit is real.",
+            "For direct inquiries, contact hello@flowvory.com and include enough information to understand the company, the market, and the current commercial challenge.",
+            "A short message with real context is far more useful than a vague note that says only that growth is needed. The site is designed to attract serious conversations, and the contact page should work the same way.",
           ],
         },
         {
-          title: "Strategy-first conversations",
+          title: "2. Best-fit conversations",
           body: [
-            "If the goal is to explore a working relationship, the most useful path is a strategy conversation tied to the system presented on the New 4 landing page.",
-            "That means the conversation is strongest when it covers visibility, data structure, conversion architecture, and commercial priorities, not only a narrow channel request in isolation.",
+            "The strongest fit is usually with companies that want to think beyond a single channel and treat growth as a system across visibility, data, conversion, and retention.",
+            "That can include eCommerce teams, marketplaces, and operators who want a clearer strategy for GEO, AI demand capture, structured data, and on-site commercial performance.",
           ],
         },
         {
-          title: "What to expect",
+          title: "3. What to include in an inquiry",
           body: [
-            "Not every inquiry becomes a project. Some are too early, too tactical, or not aligned with the model the company is built around.",
-            "But if the request is serious, commercially grounded, and connected to the kind of work described on this site, this page is the right place to start the conversation.",
+            "A useful first message usually includes your website, category, current acquisition model, the main bottleneck you want to solve, and whether the need is strategic, advisory, or execution-focused.",
+            "This helps Flowvory decide whether the fit is real and whether the next step should be a strategy discussion, a narrower commercial conversation, or simply a referral elsewhere.",
+          ],
+        },
+        {
+          title: "4. Response expectations",
+          body: [
+            "Not every inquiry becomes a project. Some requests are outside scope, too early, or too detached from the system the company is built to deliver.",
+            "But for serious businesses with a real commercial context and a clear reason for reaching out, this page is the right place to start the conversation.",
           ],
         },
       ]}

@@ -100,7 +100,7 @@ export default function Home() {
       </main>
 
       <footer className="bg-[#0b1020] border-t border-white/10 py-10 px-6 text-center text-[#7f89b5] text-sm">
-        AI GEO COMPANY, new concept route for comparison.
+        FLOWVORY, new concept route for comparison.
       </footer>
 
       <StrategyModal isOpen={strategyOpen} onClose={() => setStrategyOpen(false)} />

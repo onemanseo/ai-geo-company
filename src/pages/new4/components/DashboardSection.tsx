@@ -180,7 +180,7 @@ export default function DashboardSection() {
             <div className="flex-1 flex items-center justify-center">
               <div className="flex items-center gap-2 px-4 py-1 rounded-full bg-[#171717]/6 border border-[#171717]/10 max-w-xs w-full">
                 <i className="ri-lock-line text-[#6b6b6b] text-[10px]"></i>
-                <span className="text-[#6b6b6b] text-xs">dashboard.aigrowthsystem.com</span>
+                <span className="text-[#6b6b6b] text-xs">dashboard.flowvory.com</span>
                 <div className="ml-auto w-2 h-2 rounded-full bg-[#59aaff] animate-pulse"></div>
               </div>
             </div>

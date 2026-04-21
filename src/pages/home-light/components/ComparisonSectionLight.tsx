@@ -66,7 +66,7 @@ export default function ComparisonSectionLight() {
                 <div className="w-5 h-5 flex items-center justify-center">
                   <i className="ri-checkbox-circle-line text-teal-500 text-base"></i>
                 </div>
-                <p className="text-teal-600 text-sm font-semibold">AI Growth System</p>
+                <p className="text-teal-600 text-sm font-semibold">Flowvory</p>
               </div>
             </div>
           </div>

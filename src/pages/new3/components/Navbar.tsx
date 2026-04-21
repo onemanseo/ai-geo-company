@@ -34,8 +34,8 @@ export default function Navbar() {
             AI
           </div>
           <div className="leading-none">
-            <div className="text-[10px] uppercase tracking-[0.28em] text-[#6b6b6b] font-semibold">AI GEO COMPANY</div>
-            <div className="text-lg font-black tracking-[-0.04em] text-[#171717]">AI Growth System</div>
+            <div className="text-[10px] uppercase tracking-[0.28em] text-[#6b6b6b] font-semibold">FLOWVORY</div>
+            <div className="text-lg font-black tracking-[-0.04em] text-[#171717]">Flowvory</div>
           </div>
         </a>
 

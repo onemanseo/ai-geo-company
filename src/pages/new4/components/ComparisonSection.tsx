@@ -85,7 +85,7 @@ export default function ComparisonSection() {
             <div className="p-5">
               <div className="flex items-center gap-2">
                 <i className="ri-checkbox-circle-line text-[#59aaff] text-base"></i>
-                <p className="text-[#59aaff] text-sm font-black">AI Growth System</p>
+                <p className="text-[#59aaff] text-sm font-black">Flowvory</p>
               </div>
             </div>
           </div>

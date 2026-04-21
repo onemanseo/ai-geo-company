@@ -111,7 +111,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="relative z-10 py-10 px-6 text-center text-[#6b6b6b] text-sm">AI GEO COMPANY, bright abstract new2 concept.</footer>
+      <footer className="relative z-10 py-10 px-6 text-center text-[#6b6b6b] text-sm">FLOWVORY, bright abstract new2 concept.</footer>
       <StrategyModal isOpen={strategyOpen} onClose={() => setStrategyOpen(false)} />
       <WhitepaperModal isOpen={whitepaperOpen} onClose={() => setWhitepaperOpen(false)} />
     </div>

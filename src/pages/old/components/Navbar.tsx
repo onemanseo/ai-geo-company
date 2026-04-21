@@ -29,7 +29,7 @@ export default function Navbar() {
         <a href="/" className="flex items-center gap-3 cursor-pointer">
           <img
             src="https://public.readdy.ai/ai/img_res/00432940-05c9-4ddf-906b-9f72ed0c7467.png"
-            alt="AI Growth System Logo"
+            alt="Flowvory Logo"
             className="h-9 w-auto object-contain"
           />
         </a>
