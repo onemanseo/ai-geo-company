@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import DashboardSection from "./components/DashboardSection";
@@ -11,6 +11,17 @@ import WhitepaperModal from "./components/WhitepaperModal";
 export default function Home() {
   const [strategyOpen, setStrategyOpen] = useState(false);
   const [whitepaperOpen, setWhitepaperOpen] = useState(false);
+
+  useEffect(() => {
+    const openStrategy = () => setStrategyOpen(true);
+    const openWhitepaper = () => setWhitepaperOpen(true);
+    window.addEventListener("flowvory:open-strategy", openStrategy);
+    window.addEventListener("flowvory:open-whitepaper", openWhitepaper);
+    return () => {
+      window.removeEventListener("flowvory:open-strategy", openStrategy);
+      window.removeEventListener("flowvory:open-whitepaper", openWhitepaper);
+    };
+  }, []);
 
   const phases = [
     ["2019", "Google Era", "Google → Category → Product → Cart", "SEO owned the entire funnel. Rank on page 1, get traffic. Simple, predictable, scalable."],

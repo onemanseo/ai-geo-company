@@ -53,12 +53,13 @@ export default function Navbar() {
         </div>
 
         {/* CTA */}
-        <a
-          href="#strategy"
-          className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#171717] text-[#fff8ef] text-sm font-bold hover:translate-y-[-1px] transition-all duration-200 whitespace-nowrap shadow-[6px_6px_0_rgba(255,126,78,0.25)]"
+        <button
+          type="button"
+          onClick={() => window.dispatchEvent(new Event("flowvory:open-strategy"))}
+          className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#171717] text-[#fff8ef] text-sm font-bold hover:translate-y-[-1px] transition-all duration-200 whitespace-nowrap shadow-[6px_6px_0_rgba(255,126,78,0.25)] cursor-pointer"
         >
           Book Strategy Call
-        </a>
+        </button>
 
         {/* Mobile hamburger */}
         <button
@@ -83,13 +84,16 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="#strategy"
-            onClick={() => setMenuOpen(false)}
-            className="mt-2 px-5 py-2.5 rounded-full bg-[#171717] text-[#fff8ef] text-sm font-bold text-center whitespace-nowrap"
+          <button
+            type="button"
+            onClick={() => {
+              setMenuOpen(false);
+              window.dispatchEvent(new Event("flowvory:open-strategy"));
+            }}
+            className="mt-2 px-5 py-2.5 rounded-full bg-[#171717] text-[#fff8ef] text-sm font-bold text-center whitespace-nowrap cursor-pointer"
           >
             Book Strategy Call
-          </a>
+          </button>
         </div>
       )}
     </nav>

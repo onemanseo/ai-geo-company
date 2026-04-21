@@ -5,7 +5,7 @@ export default function NewFourTermsPage() {
     <LegalPageLayout
       kicker="Terms & Conditions"
       title="Terms & Conditions"
-      intro="These Terms & Conditions govern access to and use of flowvory.com and describe the legal framework for the public website operated by Flowvory, a California-based company located at 2412 Santa Monica Boulevard, Santa Monica, California."
+      intro="These Terms & Conditions govern access to and use of flowvory.com and describe the legal framework for the public website operated by Flowvory, a California-based company located at 2340 Santa Monica Blvd, Santa Monica, California."
       accent="blue"
       sections={[
         {
@@ -68,7 +68,7 @@ export default function NewFourTermsPage() {
           title: "9. Governing law and location",
           body: [
             "These Terms & Conditions are intended to be governed by the laws applicable in the State of California, without regard to conflict-of-law principles to the extent such principles would require application of another jurisdiction's law.",
-            "The website operator is Flowvory, located at 2412 Santa Monica Boulevard, Santa Monica, California, and the site's legal and commercial framing should be read in that context.",
+            "The website operator is Flowvory, located at 2340 Santa Monica Blvd, Santa Monica, California, and the site's legal and commercial framing should be read in that context.",
           ],
         },
         {

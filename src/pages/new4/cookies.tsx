@@ -5,7 +5,7 @@ export default function NewFourCookiesPage() {
     <LegalPageLayout
       kicker="Cookie Policy"
       title="Cookie Policy"
-      intro="This Cookie Policy explains how Flowvory uses cookies and similar technologies on flowvory.com. Flowvory is a California-based company located at 2412 Santa Monica Boulevard, Santa Monica, California."
+      intro="This Cookie Policy explains how Flowvory uses cookies and similar technologies on flowvory.com. Flowvory is a California-based company located at 2340 Santa Monica Blvd, Santa Monica, California."
       accent="peach"
       sections={[
         {
@@ -47,7 +47,7 @@ export default function NewFourCookiesPage() {
           title: "6. Future changes and contact",
           body: [
             "If Flowvory later implements a more detailed consent mechanism, adds materially different advertising or tracking tools, or significantly changes the website's measurement stack, this Cookie Policy should be updated accordingly.",
-            "Questions about this Cookie Policy may be directed to Flowvory at 2412 Santa Monica Boulevard, Santa Monica, California, or through the website's contact channels.",
+            "Questions about this Cookie Policy may be directed to Flowvory at 2340 Santa Monica Blvd, Santa Monica, California, or through the website's contact channels.",
           ],
         },
       ]}

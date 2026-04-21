@@ -5,13 +5,13 @@ export default function NewFourPrivacyPage() {
     <LegalPageLayout
       kicker="Privacy Policy"
       title="Privacy Policy"
-      intro="This Privacy Policy explains how Flowvory collects, uses, stores, and discloses information through flowvory.com and related communications. Flowvory is a California-based company located at 2412 Santa Monica Boulevard, Santa Monica, California."
+      intro="This Privacy Policy explains how Flowvory collects, uses, stores, and discloses information through flowvory.com and related communications. Flowvory is a California-based company located at 2340 Santa Monica Blvd, Santa Monica, California."
       accent="mint"
       sections={[
         {
           title: "1. Scope and operator information",
           body: [
-            "This Privacy Policy applies to flowvory.com, its public website content, inquiry and contact flows, strategy request flows, and any communications that arise directly from those interactions. For purposes of this policy, the website operator is Flowvory, located at 2412 Santa Monica Boulevard, Santa Monica, California.",
+            "This Privacy Policy applies to flowvory.com, its public website content, inquiry and contact flows, strategy request flows, and any communications that arise directly from those interactions. For purposes of this policy, the website operator is Flowvory, located at 2340 Santa Monica Blvd, Santa Monica, California.",
             "This policy is intended to describe the company's actual website privacy practices in plain and commercially realistic language. It is not intended as decorative legal filler, and it should be updated whenever the site's real data practices materially change.",
           ],
         },
@@ -74,7 +74,7 @@ export default function NewFourPrivacyPage() {
         {
           title: "10. Contact information and updates",
           body: [
-            "Questions regarding this Privacy Policy may be directed to Flowvory at 2412 Santa Monica Boulevard, Santa Monica, California, or through the contact channels provided on flowvory.com.",
+            "Questions regarding this Privacy Policy may be directed to Flowvory at 2340 Santa Monica Blvd, Santa Monica, California, or through the contact channels provided on flowvory.com.",
             "Flowvory may update this Privacy Policy from time to time to reflect operational, legal, or website changes. When material changes are made, the policy should be revised on the site so that the public-facing text reflects the company's actual current practices.",
           ],
         },

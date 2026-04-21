@@ -42,11 +42,17 @@ export default function FooterSection() {
           <div>
             <p className="text-white text-sm font-black tracking-[-0.02em] mb-4">System</p>
             <ul className="space-y-3">
-              {["AI Data Layer", "GEO", "AI Content Engine", "AI CRO", "AI Lead Scoring"].map((item) => (
-                <li key={item}>
-                  <a href="#modules" className="text-white/45 text-sm hover:text-white transition-colors cursor-pointer">
-                    {item}
-                  </a>
+              {[
+                { label: "AI Data Layer", href: "/new4/data-layer" },
+                { label: "GEO", href: "/new4/geo" },
+                { label: "AI Content Engine", href: "/new4/content-engine" },
+                { label: "AI CRO", href: "/new4/cro" },
+                { label: "AI Lead Scoring", href: "/new4/lead-scoring" },
+              ].map((item) => (
+                <li key={item.label}>
+                  <Link to={item.href} className="text-white/45 text-sm hover:text-white transition-colors cursor-pointer">
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -57,10 +63,10 @@ export default function FooterSection() {
             <p className="text-white text-sm font-black tracking-[-0.02em] mb-4">Resources</p>
             <ul className="space-y-3">
               {[
-                { label: "AI Growth Whitepaper", href: "#" },
+                { label: "AI Growth Whitepaper", href: "/new4/whitepaper" },
                 { label: "About Us", href: "/new4/about" },
                 { label: "Contact", href: "/new4/contact" },
-                { label: "AI Visibility Audit", href: "#strategy" },
+                { label: "AI Visibility Audit", href: "/new4/audit" },
               ].map((item) => (
                 <li key={item.label}>
                   {item.href.startsWith("/") ? (
@@ -84,7 +90,7 @@ export default function FooterSection() {
               <li className="flex items-center gap-2 text-white/45 text-sm">
                 <i className="ri-mail-line text-[#59aaff] text-sm flex-shrink-0"></i>
                 <Link to="/new4/contact" className="hover:text-white transition-colors cursor-pointer break-all">
-                  hello@aigrowthsystem.com
+                  hello@flowvory.com
                 </Link>
               </li>
               <li className="flex items-center gap-2 text-white/45 text-sm">
@@ -95,9 +101,13 @@ export default function FooterSection() {
               </li>
               <li className="flex items-center gap-2 text-white/45 text-sm">
                 <i className="ri-calendar-line text-[#59aaff] text-sm flex-shrink-0"></i>
-                <a href="#strategy" className="hover:text-white transition-colors cursor-pointer">
+                <button
+                  type="button"
+                  onClick={() => window.dispatchEvent(new Event("flowvory:open-strategy"))}
+                  className="hover:text-white transition-colors cursor-pointer text-left"
+                >
                   Book a call
-                </a>
+                </button>
               </li>
             </ul>
           </div>
