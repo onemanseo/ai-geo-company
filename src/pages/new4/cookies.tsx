@@ -5,14 +5,14 @@ export default function NewFourCookiesPage() {
     <LegalPageLayout
       kicker="Cookie Policy"
       title="Cookie Policy"
-      intro="This Cookie Policy explains how AI Growth System may use cookies and similar technologies to operate the website, understand demand, and improve the quality of the site experience."
+      intro="This Cookie Policy explains how Flowvory may use cookies and similar technologies to operate the website, understand demand, and improve the quality of the site experience."
       accent="peach"
       sections={[
         {
           title: "1. What cookies do here",
           body: [
             "Cookies and similar browser technologies help websites remember basic technical states, measure interaction, and understand how visitors move through pages.",
-            "For AI Growth System, that can include understanding which sections attract serious business interest, how visitors navigate through the site, and whether the communication flow is clear or confusing.",
+            "For Flowvory, that can include understanding which sections attract serious business interest, how visitors navigate through the site, and whether the communication flow is clear or confusing.",
           ],
         },
         {
@@ -33,7 +33,7 @@ export default function NewFourCookiesPage() {
           title: "4. Managing cookie preferences",
           body: [
             "Most browsers allow users to control or restrict cookies through browser settings. If those settings are changed, some parts of the browsing experience may behave differently.",
-            "If AI Growth System later adds a dedicated consent layer or a broader tracking implementation, this page should be revised to reflect the real setup in specific and understandable terms.",
+            "If Flowvory later adds a dedicated consent layer or a broader tracking implementation, this page should be revised to reflect the real setup in specific and understandable terms.",
           ],
         },
       ]}

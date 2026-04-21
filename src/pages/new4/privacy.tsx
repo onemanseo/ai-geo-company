@@ -46,7 +46,7 @@ export default function NewFourPrivacyPage() {
         {
           title: "6. Data review and updates",
           body: [
-            "If you need the company to correct or remove information previously shared through a direct inquiry, you can request that through the contact page or by writing to hello@flowvory.com.",
+            "If you need the company to correct or remove information previously shared through a direct inquiry, you can request that through the contact page or by writing to hello@aigrowthsystem.com.",
             "If the site later introduces new data flows, account systems, lead magnets, newsletter infrastructure, or additional tracking layers, this page should be updated to describe the real implementation clearly and specifically.",
           ],
         },

@@ -11,7 +11,7 @@ export default function NewFourContactPage() {
         {
           title: "1. Direct contact",
           body: [
-            "For direct inquiries, contact hello@flowvory.com and include enough information to understand the company, the market, and the current commercial challenge.",
+            "For direct inquiries, contact hello@aigrowthsystem.com and include enough information to understand the company, the market, and the current commercial challenge.",
             "A short message with real context is far more useful than a vague note that says only that growth is needed. The site is designed to attract serious conversations, and the contact page should work the same way.",
           ],
         },
