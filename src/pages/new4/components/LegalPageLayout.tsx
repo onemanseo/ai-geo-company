@@ -15,9 +15,9 @@ interface LegalPageLayoutProps {
 }
 
 const accentMap = {
-  blue: "bg-[#dff3ff]",
-  mint: "bg-[#e8fff7]",
-  peach: "bg-[#fff0db]",
+  blue: "bg-[linear-gradient(135deg,rgba(223,243,255,0.92),rgba(255,255,255,0.82))]",
+  mint: "bg-[linear-gradient(135deg,rgba(232,255,247,0.94),rgba(255,255,255,0.84))]",
+  peach: "bg-[linear-gradient(135deg,rgba(255,240,219,0.94),rgba(255,255,255,0.84))]",
 };
 
 export default function LegalPageLayout({ kicker, title, intro, sections, accent = "blue" }: LegalPageLayoutProps) {
@@ -49,14 +49,16 @@ export default function LegalPageLayout({ kicker, title, intro, sections, accent
             {sections.map((section, idx) => (
               <article
                 key={section.title}
-                className={`rounded-[30px] border border-[#171717]/10 p-6 lg:p-8 shadow-[0_18px_50px_rgba(23,23,23,0.05)] ${
-                  idx % 3 === 0 ? "bg-white/75" : idx % 3 === 1 ? "bg-[#dff3ff]" : "bg-[#fff0db]"
+                className={`rounded-[30px] border p-6 lg:p-8 shadow-[0_18px_50px_rgba(23,23,23,0.05)] ${
+                  idx === 0
+                    ? "border-[#171717]/12 bg-white/88"
+                    : "border-[#171717]/9 bg-[rgba(255,255,255,0.72)]"
                 }`}
               >
                 <h2 className="text-2xl md:text-3xl font-black tracking-[-0.04em] leading-snug mb-4">{section.title}</h2>
                 <div className="space-y-4">
                   {section.body.map((paragraph, pIdx) => (
-                    <p key={pIdx} className="text-[#4f4f4f] text-base leading-relaxed">
+                    <p key={pIdx} className={`text-base leading-relaxed ${pIdx === 0 ? "text-[#2f2f2f]" : "text-[#4f4f4f]"}`}>
                       {paragraph}
                     </p>
                   ))}

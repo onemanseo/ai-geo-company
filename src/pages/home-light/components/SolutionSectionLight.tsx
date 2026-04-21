@@ -17,7 +17,7 @@ export default function SolutionSectionLight() {
     {
       icon: "ri-rocket-line",
       name: "AI Traffic",
-      what: "AISO, AI content, LLM mentions",
+      what: "GEO, AI content, LLM mentions",
       outcome: "New sources of demand",
       impact: "High",
       desc: "Get your brand cited in ChatGPT, Perplexity, and Gemini answers. Capture demand before it reaches Google.",

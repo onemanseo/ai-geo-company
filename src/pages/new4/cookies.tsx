@@ -5,28 +5,28 @@ export default function NewFourCookiesPage() {
     <LegalPageLayout
       kicker="Cookie Policy"
       title="Cookie Policy"
-      intro="This page explains how cookies and similar technologies may be used across the AI GEO COMPANY New 4 experience."
+      intro="This page explains how cookies and similar technologies may be used to operate, measure, and improve the AI GEO COMPANY website."
       accent="peach"
       sections={[
         {
-          title: "Why cookies may be used",
+          title: "Why cookies are used",
           body: [
-            "Cookies and similar browser technologies can help with analytics, traffic attribution, user experience continuity, and understanding how people move through the site.",
-            "For a growth-oriented site, those signals can help identify which landing sections, calls to action, and channels generate real commercial attention.",
+            "Cookies and similar browser technologies may be used to support normal website functionality, measure traffic patterns, and understand how visitors move through the site.",
+            "For a company presenting a commercial growth system, those signals help identify which messages, sections, and entry points attract real demand rather than empty traffic.",
           ],
         },
         {
-          title: "Types of cookies",
+          title: "Measurement and attribution",
           body: [
-            "Some cookies may support site functionality, while others may support measurement, campaign attribution, or performance analysis.",
-            "If more advanced tracking, ad attribution, or personalization systems are introduced, this page should be updated to describe those tools clearly.",
+            "Some technologies may help evaluate traffic sources, campaign performance, and page-level interaction. That can include analytics, referral measurement, and other operational tools used by modern websites.",
+            "If the live implementation later expands into more advanced tracking or advertising systems, this policy should be updated to reflect the actual setup in specific terms.",
           ],
         },
         {
           title: "Managing preferences",
           body: [
-            "Most browsers allow you to control or disable cookies through browser settings. Doing so may affect how some parts of the site behave.",
-            "If a dedicated consent layer is added later, the live implementation should match what is described here instead of relying on placeholder legal text.",
+            "Most browsers provide their own controls for cookies and related storage technologies. Restricting them may affect how some site features behave.",
+            "If a formal consent layer is introduced later, the real consent flow should match what this page says. The goal is clarity, not placeholder legal decoration.",
           ],
         },
       ]}

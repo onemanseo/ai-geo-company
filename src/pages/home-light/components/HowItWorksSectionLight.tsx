@@ -9,7 +9,7 @@ export default function HowItWorksSectionLight() {
   const stepData = [
     {
       id: "01",
-      title: "AI Content + AISO",
+      title: "AI Content + GEO",
       desc: "Brand appears in LLM answers and AI Overviews. New demand is captured before it reaches Google.",
       icon: "ri-article-line",
     },

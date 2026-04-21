@@ -5,28 +5,28 @@ export default function NewFourContactPage() {
     <LegalPageLayout
       kicker="Contact"
       title="Contact"
-      intro="If you want to discuss AI visibility, AI-driven growth systems, or a strategy conversation for your company, use the contact paths below as the starting point."
+      intro="If you want to discuss GEO, AI visibility, or a strategy-led growth system for your business, this page is the right starting point."
       accent="blue"
       sections={[
         {
-          title: "General inquiries",
+          title: "Email",
           body: [
-            "For new business conversations, reach out via hello@aigrowthsystem.com with a short explanation of the company, market, and current growth challenge.",
-            "The more specific the context, the easier it is to understand whether the project is a strong fit for the system presented on the New 4 page.",
+            "For direct inquiries, use hello@aigrowthsystem.com and include enough context to understand the company, the market, and the current growth problem.",
+            "A short, specific message is more useful than a broad request with no commercial detail. Clear context makes it easier to understand whether the fit is real.",
           ],
         },
         {
-          title: "Strategy calls",
+          title: "Strategy-first conversations",
           body: [
-            "If you are looking for a strategy-first conversation, use the Book Strategy Call flow from the main landing page footer or CTA areas.",
-            "That is the best path when the request is commercial, exploratory, and tied to AI demand capture, conversion, or retention architecture.",
+            "If the goal is to explore a working relationship, the most useful path is a strategy conversation tied to the system presented on the New 4 landing page.",
+            "That means the conversation is strongest when it covers visibility, data structure, conversion architecture, and commercial priorities, not only a narrow channel request in isolation.",
           ],
         },
         {
-          title: "Response expectations",
+          title: "What to expect",
           body: [
-            "Not every message becomes a project. Some requests are too broad, too tactical, or outside the business model described on the site.",
-            "But qualified requests with clear context are the right place to start if you want to explore whether AI GEO COMPANY is the right growth partner.",
+            "Not every inquiry becomes a project. Some are too early, too tactical, or not aligned with the model the company is built around.",
+            "But if the request is serious, commercially grounded, and connected to the kind of work described on this site, this page is the right place to start the conversation.",
           ],
         },
       ]}

@@ -40,7 +40,7 @@ export default function FooterSection() {
           <div>
             <p className="text-white text-sm font-black tracking-[-0.02em] mb-4">System</p>
             <ul className="space-y-3">
-              {["AI Data Layer", "AISO", "AI Content Engine", "AI CRO", "AI Lead Scoring"].map((item) => (
+              {["AI Data Layer", "GEO", "AI Content Engine", "AI CRO", "AI Lead Scoring"].map((item) => (
                 <li key={item}>
                   <a href="#modules" className="text-white/45 text-sm hover:text-white transition-colors cursor-pointer">
                     {item}

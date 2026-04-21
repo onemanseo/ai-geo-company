@@ -5,35 +5,35 @@ export default function NewFourPrivacyPage() {
     <LegalPageLayout
       kicker="Privacy Policy"
       title="Privacy Policy"
-      intro="This page explains how AI GEO COMPANY handles website inquiries, strategy-call requests, and operational data in the same visual language as the New 4 landing experience."
+      intro="This policy explains, in plain language, what AI GEO COMPANY may collect through this website, why that information is used, and how inquiry data is handled when someone reaches out through the New 4 experience."
       accent="mint"
       sections={[
         {
-          title: "What we collect",
+          title: "Inquiry data",
           body: [
-            "We may collect contact details you share through inquiry forms, strategy requests, email communication, and normal website analytics used to understand demand, traffic quality, and user interaction.",
-            "This can include your name, email address, company information, and the context you provide about your growth goals or AI visibility needs.",
+            "If you contact the company through email, a strategy request, or another direct inquiry path, the information you provide is used to understand the request and reply appropriately.",
+            "That may include your name, email address, company details, website, market context, and any growth or visibility information you voluntarily include in the message.",
           ],
         },
         {
-          title: "How we use information",
+          title: "Operational website data",
           body: [
-            "We use submitted information to reply to inquiries, prepare relevant strategy conversations, improve the site experience, and understand which services or pages attract commercial interest.",
-            "We do not describe anonymous traffic as a relationship. We use the data to respond better, qualify demand, and improve the system.",
+            "Like most commercial websites, this site may process limited technical and analytical information such as browser type, device category, page visits, referral source, and interaction patterns.",
+            "That information is used to understand demand, evaluate which pages attract real commercial attention, and improve how the site communicates its offer.",
           ],
         },
         {
-          title: "Analytics and platform tools",
+          title: "How information is used",
           body: [
-            "Like most commercial sites, we may use analytics, hosting, scheduling, and communication tools to operate the website and understand demand patterns.",
-            "Those tools may process technical information such as browser type, device category, referral source, and page interactions where applicable.",
+            "The company uses submitted information to respond to inquiries, assess fit, prepare relevant conversations, and operate the website more effectively.",
+            "It is not used to create a false sense of relationship or to imply a formal engagement where none exists. An inquiry is just that: an inquiry, until a separate commercial agreement exists.",
           ],
         },
         {
-          title: "Your choices",
+          title: "Requests and updates",
           body: [
-            "If you want us to update or remove inquiry information you previously submitted, contact us through the contact page and we can review the request.",
-            "If this site later adds more formal account, tracking, or newsletter systems, this page should be updated to reflect the real data flow instead of generic boilerplate.",
+            "If you want the company to correct or remove information you previously submitted through a direct inquiry, you can make that request using the contact page.",
+            "If the site later introduces more formal lead capture, newsletter systems, or account-based functionality, this policy should be updated to reflect the real implementation instead of generic legal filler.",
           ],
         },
       ]}

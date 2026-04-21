@@ -258,7 +258,7 @@ export default function DashboardSection() {
                 <p className="text-[#171717] text-sm font-black tracking-[-0.02em] mb-4">Monthly Business Review</p>
                 <div className="space-y-2.5">
                   {[
-                    { icon: "ri-checkbox-circle-line", color: "text-emerald-600", text: "AI traffic up 34% MoM — AISO content driving Perplexity citations" },
+                    { icon: "ri-checkbox-circle-line", color: "text-emerald-600", text: "AI traffic up 34% MoM — GEO content driving Perplexity citations" },
                     { icon: "ri-checkbox-circle-line", color: "text-emerald-600", text: "CRO module A/B test concluded: +18% CR on product pages" },
                     { icon: "ri-error-warning-line", color: "text-amber-500", text: "Gemini visibility dipped 8% — schema update scheduled for next sprint" },
                     { icon: "ri-checkbox-circle-line", color: "text-emerald-600", text: "Retention module: churn rate down to 4.2%, lowest on record" },

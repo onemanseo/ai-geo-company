@@ -66,7 +66,7 @@ export default function Home() {
               <div className="grid gap-5">
                 {[
                   "Teams investing in SEO but seeing the answer layer reshape discovery.",
-                  "Brands that need a clearer GEO / AISO / entity strategy story.",
+                  "Brands that need a clearer GEO / GEO / entity strategy story.",
                   "Operators who want the site to feel more like a premium intelligence company than a quick AI wrapper.",
                 ].map((line) => (
                   <div key={line} className="rounded-[28px] border border-white/10 bg-white/5 p-6 text-[#dce1ff] leading-relaxed">

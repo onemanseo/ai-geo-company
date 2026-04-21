@@ -19,7 +19,7 @@ export default function HeroSection({ onStrategyClick, onWhitepaperClick }: Hero
             </h1>
 
             <p className="mt-8 text-[#4f4f4f] text-lg lg:text-xl leading-relaxed max-w-2xl">
-              We don&apos;t just push rankings. We manage demand, traffic, and conversion through AI, using SEO, AISO, AI CRO,
+              We don&apos;t just push rankings. We manage demand, traffic, and conversion through AI, using SEO, GEO, AI CRO,
               LLM mentions, and on-site personalization to help brands win in the answer era.
             </p>
 

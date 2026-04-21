@@ -18,7 +18,7 @@ export default function SolutionSection() {
     {
       icon: "ri-rocket-line",
       name: "AI Traffic",
-      what: "AISO, AI content, LLM mentions",
+      what: "GEO, AI content, LLM mentions",
       outcome: "New sources of demand",
       impact: "High",
       impactColor: "bg-[#00E5CC]/15 text-[#00E5CC] border-[#00E5CC]/30",

@@ -64,7 +64,7 @@ export default function HeroSection({ onStrategyClick, onWhitepaperClick }: Hero
               <div className="space-y-5">
                 {[
                   ["01", "Entity Layer", "Structured data, brand clarity, knowledge graph alignment"],
-                  ["02", "Demand Layer", "AISO, AI answers, citation surfaces, search presence"],
+                  ["02", "Demand Layer", "GEO, AI answers, citation surfaces, search presence"],
                   ["03", "Content Layer", "Scenario coverage, commercial pages, comparison logic"],
                   ["04", "Conversion Layer", "Personalized messaging, CRO, merchandising decisions"],
                 ].map(([n, title, text], idx, arr) => (

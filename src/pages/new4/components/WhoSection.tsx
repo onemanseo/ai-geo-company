@@ -49,7 +49,7 @@ export default function WhoSection() {
       label: "High-Consideration Purchase",
       title: "Auto, real estate, B2B, premium",
       desc: "Long decision cycles, high AOV, and uncertainty-driven drop-off. Buyers research extensively before committing.",
-      wins: ["AISO", "AI Customer Journey", "AI Content Engine"],
+      wins: ["GEO", "AI Customer Journey", "AI Content Engine"],
       winBg: "bg-[#171717]",
       winText: "text-[#fff8ef]",
       metrics: [

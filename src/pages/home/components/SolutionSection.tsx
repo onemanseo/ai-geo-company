@@ -13,7 +13,7 @@ export default function SolutionSection() {
     },
     {
       name: 'Demand Layer',
-      what: 'AISO, answer-engine visibility, mention strategy, search surface control',
+      what: 'GEO, answer-engine visibility, mention strategy, search surface control',
       outcome: 'Your brand appears before the click, not after it',
       desc: 'This layer shifts visibility from classic rankings into AI-mediated discovery environments where decisions increasingly begin.',
     },

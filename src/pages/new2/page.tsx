@@ -16,14 +16,14 @@ export default function Home() {
 
   const layers = [
     ["Data Layer", "Schema, knowledge graph, structured data", "AI understands your catalog"],
-    ["AI Traffic", "AISO, content, mentions, answer surfaces", "New sources of demand"],
+    ["AI Traffic", "GEO, content, mentions, answer surfaces", "New sources of demand"],
     ["AI Conversion", "Personalization, offers, AI CRO", "Higher CR and AOV"],
     ["AI Intelligence", "Scoring, analytics, LTV prediction", "Lower CAC, higher ROI"],
   ];
 
   const modules = [
     "AI Data Layer",
-    "AISO",
+    "GEO",
     "AI Content Engine",
     "AI CRO",
     "AI Lead & Traffic Scoring",

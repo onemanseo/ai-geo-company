@@ -6,7 +6,7 @@ export default function SolutionSection() {
 
   const layerData = [
     ['Entity Intelligence', 'Schema, product data, knowledge graph clarity', 'Give machines a clean commercial understanding of what you sell.'],
-    ['Answer Visibility', 'AISO, citation strategy, mention surfaces', 'Increase the chance your brand is retrieved in AI-mediated discovery.'],
+    ['Answer Visibility', 'GEO, citation strategy, mention surfaces', 'Increase the chance your brand is retrieved in AI-mediated discovery.'],
     ['Scenario Coverage', 'Comparison pages, use-case pages, decision-stage content', 'Cover the high-intent scenarios where users ask models what to buy.'],
     ['Adaptive Conversion', 'Segmentation, CRO, offer logic, signal loops', 'Convert mediated demand into measurable commercial outcomes.'],
   ];

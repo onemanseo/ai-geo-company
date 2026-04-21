@@ -20,14 +20,14 @@ export default function Home() {
 
   const layers = [
     ["Data Layer", "Schema, knowledge graph, structured data", "AI understands your catalog", "The foundation everything else is built on. Without structured data, AI systems can't read, index, or recommend your products."],
-    ["AI Traffic", "AISO, AI content, LLM mentions", "New sources of demand", "Get your brand cited in ChatGPT, Perplexity, and Gemini answers. Capture demand before it reaches Google."],
+    ["AI Traffic", "GEO, AI content, LLM mentions", "New sources of demand", "Get your brand cited in ChatGPT, Perplexity, and Gemini answers. Capture demand before it reaches Google."],
     ["AI Conversion", "Personalization, dynamic offers, AI CRO", "Higher CR and AOV", "Every visitor sees a different version of your site, optimized for their segment, intent, and purchase probability."],
     ["AI Intelligence", "Lead scoring, LTV prediction, analytics", "Lower CAC, higher ROI", "Predict who will buy, when, and how much. Reallocate budget in real time based on AI-scored intent signals."],
   ];
 
   const modules = [
     ["AI Data Layer", "Foundation", "AI can't read your catalog, you're invisible to LLMs"],
-    ["AISO", "AI Search Optimization", "Your brand doesn't appear in ChatGPT or Perplexity answers"],
+    ["GEO", "Generative Engine Optimization", "Your brand doesn't appear in ChatGPT or Perplexity answers"],
     ["AI Content Engine", "Scalable Content", "Manual content can't scale to cover all user scenarios"],
     ["AI CRO", "Conversion Optimization", "One-size-fits-all pages kill conversion for high-intent segments"],
     ["AI Lead & Traffic Scoring", "Predictive Intelligence", "Budget wasted on low-intent traffic with no purchase signal"],
@@ -37,7 +37,7 @@ export default function Home() {
   ];
 
   const steps = [
-    ["01", "ri-article-line", "AI Content + AISO", "Brand appears in LLM answers and AI Overviews. New demand is captured before it reaches Google."],
+    ["01", "ri-article-line", "AI Content + GEO", "Brand appears in LLM answers and AI Overviews. New demand is captured before it reaches Google."],
     ["02", "ri-flow-chart", "AI Traffic", "Qualified visitors arrive from ChatGPT, Perplexity, Gemini, and traditional search — all tracked."],
     ["03", "ri-user-settings-line", "AI Personalization", "Each visitor sees a version of the site optimized for their segment, intent, and predicted LTV."],
     ["04", "ri-shopping-cart-2-line", "Conversion", "Dynamic offers, AI-optimized copy, and real-time A/B testing maximize CR and AOV."],

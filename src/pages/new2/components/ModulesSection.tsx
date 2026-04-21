@@ -12,8 +12,8 @@ const modules = [
     icon: "ri-database-2-line",
   },
   {
-    name: "AISO",
-    subtitle: "AI Search Optimization",
+    name: "GEO",
+    subtitle: "Generative Engine Optimization",
     pain: "Your brand doesn't appear in ChatGPT or Perplexity answers",
     solution: "Content & mention strategy that lands your brand in LLM responses across all major AI platforms.",
     impact: "High",
