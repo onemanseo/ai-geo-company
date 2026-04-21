@@ -6,6 +6,7 @@ import OldHome from "../pages/old/page";
 import NewHome from "../pages/new/page";
 import NewTwoHome from "../pages/new2/page";
 import NewThreeHome from "../pages/new3/page";
+import NewFourHome from "../pages/new4/page";
 
 const routes: RouteObject[] = [
   {
@@ -31,6 +32,10 @@ const routes: RouteObject[] = [
   {
     path: "/new3",
     element: <NewThreeHome />,
+  },
+  {
+    path: "/new4",
+    element: <NewFourHome />,
   },
   {
     path: "*",
