@@ -117,12 +117,6 @@ export default function FooterSection() {
             <Link to="/new4/cookies" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
               Cookies
             </Link>
-            <Link to="/new4/about" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
-              About Us
-            </Link>
-            <Link to="/new4/contact" className="text-white/30 text-xs hover:text-white/60 transition-colors cursor-pointer">
-              Contact
-            </Link>
           </div>
         </div>
       </div>
